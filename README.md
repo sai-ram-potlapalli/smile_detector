@@ -7,7 +7,7 @@ A real-time smile detection system that uses computer vision to detect faces and
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smile_detector.git
+git clone https://github.com/sai-ram-potlapalli/smile_detector.git
 cd smile_detector
 
 # Install dependencies
