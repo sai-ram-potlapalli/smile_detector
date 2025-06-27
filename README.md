@@ -122,8 +122,5 @@ If you encounter any issues:
 3. Open an issue on GitHub
 
 ---
-
 **Note**: Ensure good lighting and position your face clearly in the camera for optimal detection results.
 =======
-# smile_detector
->>>>>>> 1f07ad560640c9b4d625086507db3693f835bf4a
