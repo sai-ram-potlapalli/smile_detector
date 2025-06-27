@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smile Detector
 
 A real-time smile detection system that uses computer vision to detect faces and smiles from a webcam feed, measures smile intensity, and visualizes the data.
@@ -123,3 +124,6 @@ If you encounter any issues:
 ---
 
 **Note**: Ensure good lighting and position your face clearly in the camera for optimal detection results.
+=======
+# smile_detector
+>>>>>>> 1f07ad560640c9b4d625086507db3693f835bf4a
