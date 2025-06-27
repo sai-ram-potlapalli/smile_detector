@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # Smile Detector
 
 A real-time smile detection system that uses computer vision to detect faces and smiles from a webcam feed, measures smile intensity, and visualizes the data.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -20,7 +20,7 @@ python src/app.py
 python src/graph.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smile_detector/
@@ -40,7 +40,7 @@ smile_detector/
 └── .gitignore             # Git ignore rules
 ```
 
-## ✨ Features
+## Features
 
 - **Real-time Detection**: Live face and smile detection using Haar cascade classifiers
 - **Smile Measurement**: Calculates and displays smile intensity ratios
@@ -48,17 +48,17 @@ smile_detector/
 - **Interactive Visualization**: Creates beautiful, interactive graphs using Bokeh
 - **Cross-platform**: Works on Windows, macOS, and Linux
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.6+
 - Webcam access
 - Good lighting conditions
 
-## 🔧 Installation
+## Installation
 
 See [INSTALLATION.md](docs/INSTALLATION.md) for detailed installation instructions.
 
-## 📖 Usage
+## Usage
 
 See [USAGE.md](docs/USAGE.md) for comprehensive usage guide.
 
@@ -81,7 +81,7 @@ See [USAGE.md](docs/USAGE.md) for comprehensive usage guide.
    - Shows smile ratios over time
    - Highlights high smile periods
 
-## 🧠 How It Works
+## How It Works
 
 1. **Face Detection**: Uses Haar cascade classifier to detect faces in video frames
 2. **Smile Detection**: Within detected faces, identifies smile regions using another Haar cascade
@@ -89,14 +89,14 @@ See [USAGE.md](docs/USAGE.md) for comprehensive usage guide.
 4. **Data Recording**: Saves smile ratios above 1.8 threshold with timestamps
 5. **Visualization**: Creates time-series plots of smile intensity
 
-## 📊 Data Format
+## Data Format
 
 The system records:
 - **Smile Ratio**: Calculated as `smile_width / smile_x_coordinate`
 - **Timestamp**: Precise time of each measurement
 - **Threshold**: Only records ratios above 1.8
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -104,17 +104,17 @@ The system records:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenCV for computer vision capabilities
 - Haar cascade classifiers for face and smile detection
 - Bokeh for interactive data visualization
 
-## 📞 Support
+##� Support
 
 If you encounter any issues:
 1. Check the [troubleshooting section](docs/USAGE.md#troubleshooting)
